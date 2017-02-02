@@ -15,16 +15,16 @@
 #
 
 # SELinux
-BOARD_SEPOLICY_DIRS += device/nvidia/shield-common/sepolicy/common
+BOARD_SEPOLICY_DIRS += device/xiaomi/mocha-common/sepolicy/common
 
 ifneq ($(filter $(TARGET_TEGRA_MODEM),icera),)
-	BOARD_SEPOLICY_DIRS += device/nvidia/shield-common/sepolicy/icera
+	BOARD_SEPOLICY_DIRS += device/xiaomi/mocha-common/sepolicy/icera
 endif
 
 ifneq ($(filter $(TARGET_TEGRA_TOUCH),nvtouch),)
-	BOARD_SEPOLICY_DIRS += device/nvidia/shield-common/sepolicy/maxim
+	BOARD_SEPOLICY_DIRS += device/xiaomi/mocha-common/sepolicy/maxim
 else ifneq ($(filter $(TARGET_TEGRA_TOUCH),raydium),)
-	BOARD_SEPOLICY_DIRS += device/nvidia/shield-common/sepolicy/raydium
+	BOARD_SEPOLICY_DIRS += device/xiaomi/mocha-common/sepolicy/raydium
 else ifneq ($(filter $(TARGET_TEGRA_TOUCH),sharp),)
-	BOARD_SEPOLICY_DIRS += device/nvidia/shield-common/sepolicy/sharp
+	BOARD_SEPOLICY_DIRS += device/xiaomi/mocha-common/sepolicy/sharp
 endif

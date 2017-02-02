@@ -17,8 +17,8 @@
 # Overlay
 ifneq ($(TARGET_TEGRA_DISABLE_OVERLAY),true)
 DEVICE_PACKAGE_OVERLAYS += \
-    device/nvidia/shield-common/overlay/common \
-    device/nvidia/shield-common/overlay/tablet-do
+    device/xiaomi/mocha-common/overlay/common \
+    device/xiaomi/mocha-common/overlay/tablet-do
 endif
 
 # System properties
