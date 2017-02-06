@@ -1,1 +1,1 @@
-This is a common device tree for the Nvidia Shield devices. Currently supported are the t124 (K1) and t210 (X1) platforms.
+This is a common device tree for the Nvidia Shield devices - modified for Xiaomi MiPad (Mocha). Currently supported are the t124 (K1) and t210 (X1) platforms.
